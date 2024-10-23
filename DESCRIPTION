@@ -1,5 +1,5 @@
 Package: WeatherGermany
-Title:  Weather data for Germany from the Deutscher Wetterdienst (DWD)
+Title:  Weather Data for Germany from the Deutscher Wetterdienst (DWD)
 Version: 1.0-0
 Date: 2024-10-23
 Authors@R: c(person("Nikolaus", "Umlauf", role = c("aut", "cre"), 
