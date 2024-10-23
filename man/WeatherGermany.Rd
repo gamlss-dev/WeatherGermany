@@ -51,7 +51,7 @@ a <- aggregate(Tmax ~ year, data = WeatherGermany, FUN = mean)
 
 ## plot
 plot(Tmax ~ year, data = a, type = "b")
-}}
+}
 
 \keyword{datasets}
 
