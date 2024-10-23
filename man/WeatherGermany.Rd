@@ -21,10 +21,11 @@ A data frame containing 6734119 observations on 11 variables.
   \item{id}{Factor, the weather station id.}
   \item{date}{Dat, the day the data is recored.}
   \item{Wmax}{Numeric, the maximum wind speed in m/s.}
+  \item{pre}{Numeric, amount of precipitation in mm.}
   \item{Tmax}{Numeric, the maximum 2m temperature.}
-  \item{Tmin}{Numeric, the manimum 2m temperature.}
+  \item{Tmin}{Numeric, the minimum 2m temperature.}
   \item{sun}{Numeric, number of hours of sunshine.}
-  \item{name}{Character, the staion name.}
+  \item{name}{Character, the station name.}
   \item{alt}{Numeric, the altitude in meters above sea level of the weather station.}
   \item{lon}{Numeric, the longitude coordinate of the weather station.}
   \item{lat}{Numeric, the latitude coordinate of the weather station.}
