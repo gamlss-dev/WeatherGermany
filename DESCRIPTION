@@ -1,7 +1,7 @@
 Package: WeatherGermany
 Title:  Weather Data for Germany from the Deutscher Wetterdienst (DWD)
 Version: 1.0-0
-Date: 2024-10-23
+Date: 2024-10-24
 Authors@R: c(person("Nikolaus", "Umlauf", role = c("aut", "cre"), 
            email = "Nikolaus.Umlauf@uibk.ac.at", comment = c(ORCID = "0000-0003-2160-9803")))
 Description: Weather data for all stations in Germany as provided by the Deutscher Wetterdienst (DWD).
@@ -11,4 +11,5 @@ URL: https://gamlss-dev.github.io/WeatherGermany/
 BugReports: https://github.com/gamlss-dev/WeatherGermany/issues
 Depends: R (>= 3.5.0)
 LazyData: yes
+LazyDataCompression: yes
 NeedsCompilation: no
