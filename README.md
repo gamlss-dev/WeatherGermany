@@ -5,7 +5,7 @@
 The package can be installed via
 
 ``` r
-install_github("https://github.com/gamlss-dev/WeatherGermany")
+devtools::install_github("https://github.com/gamlss-dev/WeatherGermany")
 ```
 
 ## Overview
