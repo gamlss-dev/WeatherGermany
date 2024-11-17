@@ -4,8 +4,7 @@
 
 The package can be installed via
 
-```{r}
-#| eval: FALSE
+``` r
 install_github("https://github.com/gamlss-dev/WeatherGermany")
 ```
 
@@ -15,8 +14,7 @@ The package contains weather data for Germany as provided by the Deutscher Wette
 (DWD). The data is quality flag pre-processed and provided as a data frame. In addition,
 the elevation model for Germany is provided.
 
-```{r}
-#| eval: FALSE
+``` r
 data(package = "WeatherGermany")
 ```
 
