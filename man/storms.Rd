@@ -39,7 +39,7 @@ A data frame containing 3494 observations on 8 variables.
 
 \examples{
 ## load the data
-data("storms", package = "gamlss2")
+data("storms", package = "WeatherGermany")
 
 ## yearly observations
 plot(counts ~ year, data = storms)
