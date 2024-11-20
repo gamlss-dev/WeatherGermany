@@ -17,10 +17,15 @@
 A data frame containing 3494 observations on 8 variables.
 \describe{
   \item{id}{Factor, the weather station id.}
-  \item{county}{Character, the county in Germany where the weather station is located.}
-  \item{state}{Character, the state in Germany where the weather station is located.}
   \item{year}{Integer, the year the observation was measured.}
   \item{counts}{Integer, the number of severe storms in this year.}
+  \item{mean}{Numeric, the mean of the maximum wind speeds (in m/s) recorded during severe storms
+    in the respective year.}
+  \item{max}{Numeric, the maximum of the maximum wind speeds (in m/s) recorded during severe storms
+    in the respective year.}
+  \item{sd}{Numeric, the standard deviation of the maximum wind speeds (in m/s) recorded
+    during severe storms in the respective year.}
+  \item{name}{Character, the region name the weather station is located.}
   \item{alt}{Numeric, the altitude in meters above sea level of the weather station.}
   \item{lon}{Numeric, the longitude coordinate of the weather station.}
   \item{lat}{Numeric, the latitude coordinate of the weather station.}
