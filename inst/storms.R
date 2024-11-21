@@ -26,10 +26,9 @@ for(i in ids) {
 
     a$id <- d$id[1L]
     a$name <- d$name[1L]
-    n <- nrow(d)
-    a$alt <- d$alt[n]
-    a$lat <- d$lat[n]
-    a$lon <- d$lon[n]
+    a$alt <- mean(d$alt, na.rm = TRUE)
+    a$lat <- mean(d$lat, na.rm = TRUE)
+    a$lon <- mean(d$lon, na.rm = TRUE)
 
     a <- a[, c("id", "year", "counts", "mean", "max", "sd", "name", "alt", "lon", "lat")]
 
