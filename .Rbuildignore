@@ -1,2 +1,3 @@
 inst/WeatherGermany.R
 inst/stations.txt
+inst/storm_model.rda
