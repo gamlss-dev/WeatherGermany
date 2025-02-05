@@ -38,7 +38,7 @@ A class \code{"sf"} data frame containing 403 counties of Germany.
 library("sf")
 
 ## load the data
-data("Germany", package = "gamlss2")
+data("Germany", package = "WeatherGermany")
 
 ## plot the map
 plot(st_geometry(Germany))
